@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333333;
+    color: white;
+}
+header{
+    background-color: #666666;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:solid;
+    border-color: #666666;
+}
+.content{
+    flex-direction: row;
+}
+nav{
+    margin-left: 30%;
+}
